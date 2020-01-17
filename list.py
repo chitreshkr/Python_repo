@@ -1,0 +1,16 @@
+friends = ['Chitresh','Ankit' ,'Anurag','Atul']
+lucky_number = [1,2,3,4,5,7]
+friends.append('Kate')
+friends.insert(1,'Kunal')
+friends.sort()
+friends.extend(lucky_number)
+friends.pop()
+friends.index('Ankit')
+lucky_number.reverse()
+friends2 = friends.copy()
+print(friends2)
+print(friends)
+print(friends[1])
+print(friends[-1])
+print(friends[1:])
+print(lucky_number)
