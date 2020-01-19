@@ -7,3 +7,6 @@ for i in friends:
 
 for i in range(3,10):
     print(i)
+
+for index in range(len(friends)):
+    print(friends[index])
