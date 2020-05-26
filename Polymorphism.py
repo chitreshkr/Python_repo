@@ -8,7 +8,7 @@ class User():
 
 class Wizard(User):
     def __init__(self, name, power,email):
-        User.__init__(self,email)
+        User.__init__(self,email) #super to get the email from User
         self.name = name
         self.power = power
 
